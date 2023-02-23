@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Q3 | SW 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    body{
+      background: url('bgimage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    }
+    img{
+      width: 80%;
+      height: 80%;
+    }
+    h1,h3{
+      font-family: 'PT Serif', serif;    
+    }
+    p{
+      font-family: 'PT Sans', sans-serif;
+      font-size: 18.5px;
+    }
+    .checked {
+          color: orange;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <h1 align="center" class="bg-warning">Mikachu Online Library</h1>
+      <hr>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand text-warning" href="#">Mikachu Online Library</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-warning" href="#" id="title" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Title
+        </a>
+        <div class="dropdown-menu" aria-labelledby="Title">
+          <a class="dropdown-item" href="#">Tuwing Sabado</a>
+          <a class="dropdown-item" href="#">Mahabang Mahabang Mahaba</a>
+          <a class="dropdown-item" href="#">Ang Madyik Silya ni Titoy</a>
+          <a class="dropdown-item" href="#">Ang Pambihirang Buhok ni Raquel</a>
+          <a class="dropdown-item" href="#">The God Stealer and Other Stories</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-warning" href="#" id="Author" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Author
+        </a>
+        <div class="dropdown-menu" aria-labelledby="Author">
+          <a class="dropdown-item" href="#">Russell Molina</a>
+          <a class="dropdown-item" href="#">Genaro R. Gojo Cruz</a>
+          <a class="dropdown-item" href="#">Russell Molina</a>
+          <a class="dropdown-item" href="#">Luis P. Gatmaitan</a>
+          <a class="dropdown-item" href="#">F. Sionil José</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-warning" href="#" id="Publisher" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Publisher
+        </a>
+        <div class="dropdown-menu" aria-labelledby="Publisher">
+          <a class="dropdown-item" href="#">Adarna House</a>
+          <a class="dropdown-item" href="#">Adarna House</a>
+          <a class="dropdown-item" href="#">Adarna House</a>
+          <a class="dropdown-item" href="#">Adarna House</a>
+          <a class="dropdown-item" href="#">Adarna House</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="Enter Search" placeholder="Enter" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+      <table class="table table-striped table-warning">
+    <thead>
+      <tr>
+        <th class="col-sm-4 bg-warning">Picture</th>
+        <th class="col-sm-8 bg-warning">Description</th>
+      </tr>
+    </thead>
+      <tbody>
+        <tr>
+          <td><img src="tuwingsabado.jpg" class="rounded"></td>
+          <td>
+            <h1>Tuwing Sabado</h1>
+            <h3>By Russell Molina</h3><br>
+          <p>Siya ay isang batang katulad ninyo. Ngunit mayroon siyang kuwentong medyo naiiba. Tuwing Sabado, siya at ang kanyang nanay ay maagang dalahin, at bumibiyahe nang malayo. Dadalawin nila ang isang mahalagang tao sa isang espesyal na lugar. Alamin sa kanyang kuwento kung sino and taong ito at kung saan nila dadalawin ito, gayundin kung ano ang espesyal na okasyon na nagaganap sa kanila tuwing Sabado.<br><br>Alamin din mula sa kuwento kung paano pakisamahan nang tama ang kapwa batang may tatay na hindi katulad ng ibang tatay.</p><br>
+
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <span class="fa fa-star checked fa-2x"></span>
+         <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star fa-2x"></span><p>4.39 stars as rated on GoodReads</p>
+        <br>
+
+        <img src="molina.jpg" style="width: 90px; height: 90px;" class="rounded-circle"><br><br><p><b>RUSSEL MOLINA</b> is a Filipino children’s book author and graphic novelist.<br><br>
+
+Reflecting current Filipino realities and mirroring the local milieu and culture, his stories embrace a wide range of themes: From difficult issues like discrimination and apathy to real-life experiences like sibling rivalry and the reinvention of the family structure. With books like “Madyik Silya ni Titoy” (Titoy’s Magical Chair) and “Sampu Pataas, Sampu Pababa” (Ten Up, Ten Down), Molina has inspired children to conquer physical disabilities with a dose of creativity and imagination.<br><br>
+
+For his stories, he has won in numerous awards shows, including the Carlos Palanca Memorial Awards for Literature, The PBBY Salanga Writer’s Prize, The PBBY Alcala Illustrator’s Prize and the National Children’s Book Awards.</p>
+
+          <h6>Published by <i>Adarna House</i> on January 1, 2009</h6><br> 
+          <div class="form-group">
+            <div class="col-sm-ofset-2 col-sm-10">
+               <button type="submit" class="btn btn-warning">Read Now!</button>
+                <button type="reset" class="btn btn-warning">Download</button>
+                <button type="reset" class="btn btn-warning">Add to Wishlist</button>
+             </div>
+            </div>
+          </tr>
+        <tr>
+          <td><img src="mahaba.jpg" class="rounded"></td>
+          <td><h1>Mahabang Mahabang Mahaba</h1>
+            <h3>By Genaro R. Gojo Cruz</h3><br>
+          <p>Mahabang-mahabang-mahaba ang pangalan ko.<br> Kapag isinusulat ko ito, talagang napapagod ako.<br> Kulang na kulang ang haba ng isang linya ng papel para maisulat ito nang buo.<br> Kahit nga umabot pa ako sa likod ng papel ko, hindi pa rin kasya.<br> Naglalaro na ang mga kaibigan ko pero nagsusulat pa rin ako!<br> Bakit nga ba kay haba-haba ng pangalan ko?</p><br>
+
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <span class="fa fa-star checked fa-2x"></span>
+         <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star fa-2x"></span><p>4.37 stars as rated on GoodReads</p>
+        <br>
+
+<img src="gojo.jpg" style="width: 90px; height: 90px;" class="rounded-circle"><br><br><p><b>GENARO R. GOJO CRUZ</b> Nagwagi si Gojo Cruz ng mga gantimpala sa pagsulat tulad ng Pambansang Gawad Ka Amado, 100 Years of Filipino Migration to Hawaii Literary Contest 2006, Gawad Collantes-Surian sa Pagsulat ng Sanaysay, Talaang Ginto: Gawad KWF sa Tula-Gantimpalang Collantes, Ninoy Poetry Writing Contest at iba pa. Dalawang ulit din siyang naging "Makata ng Taon" noong 2004 at 2007 na ipinagkaloob ng Komisyon sa Wikang Filipino (KWF). Ilan sa kanyang mga kuwentong-pambata ay binigyang-parangal ng Don Carlos Palanca Memorial Awards for Literature, PBBY-Salanga Writers Prize, Romeo Forbes Children's Story Writing Competition, Gig Book Storywriting Contest at Gawad Panitikang Pangkalusugan. Nailathala ang kanyang mga tula at kuwentong pambata sa Junior Inquirer Magazine, Liwayway, Pambata Magazine, at mga libro sa elementarya.<br><br>
+
+Noong 5 Pebrero 2011, naipalabas sa Art Angel ng GMA 7 ang Ang Kamisetang Dilaw bilang isa sa mga itinatampok na libro.<br><br>
+
+Nakasama ang kaniyang aklat-pambatang "Mahabang-mahabang-mahaba" sa Unang Patimpalak sa Pinili ng mga Mambabasang Pilipino.</p>
+
+          <h6>Published by <i>Adarna House</i> on January 1, 2010</h6><br> 
+          <div class="form-group">
+            <div class="col-sm-ofset-2 col-sm-10">
+               <button type="submit" class="btn btn-warning">Read Now!</button>
+                <button type="reset" class="btn btn-warning">Download</button>
+                <button type="reset" class="btn btn-warning">Add to Wishlist</button>
+
+             </div>
+            </div>
+        </tr>
+        <tr>
+          <td><img src="madyiksilya.jpg" class="rounded"></td>
+          <td><h1>Ang Madyik Silya ni Titoy</h1>
+            <h3>By Russell Molina</h3><br>
+          <p>Nandito na ang madyik silya ni Titoy! Kaya nitong maging kotse, eroplano, o tren. Sumamang maglakbay at tuklasin kung paano nalagpasan ni Titoy ang kapansanan sa tulong ng kaniyang mapaglarong imahinasyon.</p><br>
+
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <span class="fa fa-star checked fa-2x"></span>
+         <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star fa-2x"></span><p>4.00 stars as rated on GoodReads</p>
+        <br>
+
+<img src="molina.jpg" style="width: 90px; height: 90px;" class="rounded-circle"><br><br><p><b>RUSSEL MOLINA</b> is a Filipino children’s book author and graphic novelist.<br><br>
+
+Reflecting current Filipino realities and mirroring the local milieu and culture, his stories embrace a wide range of themes: From difficult issues like discrimination and apathy to real-life experiences like sibling rivalry and the reinvention of the family structure. With books like “Madyik Silya ni Titoy” (Titoy’s Magical Chair) and “Sampu Pataas, Sampu Pababa” (Ten Up, Ten Down), Molina has inspired children to conquer physical disabilities with a dose of creativity and imagination.<br><br>
+
+For his stories, he has won in numerous awards shows, including the Carlos Palanca Memorial Awards for Literature, The PBBY Salanga Writer’s Prize, The PBBY Alcala Illustrator’s Prize and the National Children’s Book Awards.</p>
+
+          <h6>Published by <i>Adarna House</i> on January 1, 2002</h6><br> 
+          <div class="form-group">
+            <div class="col-sm-ofset-2 col-sm-10">
+               <button type="submit" class="btn btn-warning">Read Now!</button>
+                <button type="reset" class="btn btn-warning">Download</button>
+                <button type="reset" class="btn btn-warning">Add to Wishlist</button>
+
+             </div>
+            </div>
+        </tr>
+        <tr>
+          <td><img src="buhok.jpg" class="rounded"></td>
+          <td><h1>Ang Pambihirang Buhok ni Raquel</h1>
+            <h3>By Luis P. Gatmaitan</h3><br>
+          <p>Sa mata ng kaniyang pinsan, si Raquel ay maraming kanais-nais na katangian. Nagtataglay din siya ng buhok na pambihira at makulay. Pero may lihim si Raquel. Ano ang matutuklasan sa kaniya na lalong hahangaan?</p><br>
+
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <span class="fa fa-star checked fa-2x"></span>
+         <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star fa-2x"></span><p>4.32 stars as rated on GoodReads</p>
+        <br>
+
+<img src="luis.jpg" style="width: 90px; height: 90px;" class="rounded-circle"><br><br><p><b>LUIS P. GATMAITAN</b>, MD is a medical doctor and an author of more than 40 children's books, some of which have been translated into Nihongo, Thai, and Bahasa Indonesia. He chaired the Philippine Board on Books for Young People (PBBY) and now sits on the council of the National Council for Children's Television (NCCT) as a child development specialist. Known as Tito Dok to his readers and listeners, he hosts a weekly radio storytelling program, Wan Dey Isang Araw at 702 DZAS of the Far Eastern Broadcasting Company. In 2003, he was one of the recipients of The Outstanding Young Men of the Philippines (TOYM). He was inducted into the Hall of Fame of the Don Carlos Palanca Memorial Awards for Literature in 2005.
+</p>
+
+          <h6>Published by <i>Adarna House</i> on January 1, 1999</h6><br> 
+          <div class="form-group">
+            <div class="col-sm-ofset-2 col-sm-10">
+               <button type="submit" class="btn btn-warning">Read Now!</button>
+                <button type="reset" class="btn btn-warning">Download</button>
+                 <button type="reset" class="btn btn-warning">Add to Wishlist</button>
+
+             </div>
+            </div>
+        </tr>
+        <tr>
+          <td><img src="godstealer.jpg" class="rounded"></td>
+          <td><h1>The God Stealer and Other Stories</h1>
+            <h3>By F. Sionil José</h3><br>
+          <p>The God Stealer, F. Sionil José's most widely anthologized fiction, is a moving story of a friendship. An American and a Filipino go to the Cordilleras to look at the rice terraces which were built by the Filipino's ancestors. There, they find the meaning of their friendship, how it defines the relationship between the colonizer and the colonized.<br><br> As the Philippines' most widely translated author, F. Sionil José's reputation rests largely on his epic work—the Rosales novels, which span a hundred years of Philippine history and encompass four generations. His short stories, however, are just as memorable for their unerring depiction of the Filipino condition. This collection includes some of the earliest stories he wrote from the late forties to the early fifties. In these stories, he already maps out the boundaries of his literary geography and plumbs the depths of the Filipino character, at the same time hewing to the continuing theme of almost all of his work: the Filipino's often futile search for social justice and a moral order.<br><br> F. Sionil José's fiction is now translated into 27 languages including Tagalog. Random House has just completed putting out the Rosales saga. Fayard of France has already released four of his five Rosales novels.</p><br>
+
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <span class="fa fa-star checked fa-2x"></span>
+         <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star checked fa-2x"></span>
+        <span class="fa fa-star fa-2x"></span><p>3.98 stars as rated on GoodReads</p>
+        <br>
+
+<img src="jose.jpg" style="width: 90px; height: 90px;" class="rounded-circle"><br><br><p><b>FRANCISCO SIONIL JOSE</b> was born in 1924 in Pangasinan province and attended the public school in his hometown. He attended the University of Santo Tomas after World War II and in 1949, started his career in writing. Since then, his fiction has been published internationally and translated into several languages including his native Ilokano. He has been involved with the international cultural organizations, notably International P.E.N., the world association of poets, playwrights, essayists and novelists whose Philippine Center he founded in 1958.<br><br>
+
+F. Sionil José, the Philippines' most widely translated author, is known best for his epic work, the Rosales saga - five novels encompassing a hundred years of Philippine history - a vivid documentary of Filipino life.<br><br>
+
+In 1980, Sionil José received the Ramon Magsaysay Award for Journalism, Literature and Creative Communication Arts.<br><br>
+
+In 2001, Sionil José was named National Artist for Literature.<br><br>
+
+In 2004, Sionil José received the Pablo Neruda Centennial Award.
+</p>
+
+          <h6>Published by <i>Adarna House</i> on January 1, 1968</h6><br> 
+          <div class="form-group">
+            <div class="col-sm-ofset-2 col-sm-10">
+               <button type="submit" class="btn btn-warning">Read Now!</button>
+                <button type="reset" class="btn btn-warning">Download</button>
+                  <button type="reset" class="btn btn-warning">Add to Wishlist</button>
+
+             </div>
+            </div>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<!-- References
+
+Ang Madyik Silya ni Titoy (Titoy’s Magical Chair). (n.d.). Goodreads. Retrieved February 23, 2023, from https://www.goodreads.com/en/book/show/3484436
+
+Goodreads. (n.d.). Goodreads. Retrieved February 23, 2023, from https://www.goodreads.com/book/show/16301080-ang-pambihirang-buhok-ni-raquel
+
+Mahabang-Mahabang-Mahaba. (n.d.). Goodreads. Retrieved February 23, 2023, from https://www.goodreads.com/book/show/15829984-mahabang-mahabang-mahaba
+
+The God Stealer and Other Stories. (n.d.). Goodreads. Retrieved February 23, 2023, from https://www.goodreads.com/en/book/show/1521340
+
+Tuwing Sabado / Every Saturday. (n.d.). Goodreads. Retrieved February 23, 2023, from https://www.goodreads.com/book/show/13453116-tuwing-sabado-every-saturday-->
+</body>
+</html>
